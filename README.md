@@ -1,4 +1,4 @@
-# Ehkeeky
+# Ehkeely
 
 
 A new Flutter project.
