@@ -1,8 +1,9 @@
+import 'package:ahkeely/core/navigator/named_routes.dart';
+import 'package:ahkeely/core/navigator/navigator.dart';
+import 'package:ahkeely/core/navigator/route_generator.dart';
+import 'package:ahkeely/core/resources/theme_manager.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/navigator/named_routes.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/navigator/navigator.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/navigator/route_generator.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/resources/theme_manager.dart';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class MyApp extends StatelessWidget {
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
               // supportedLocales: S.delegate.supportedLocales,
               locale: const Locale('en'),
               theme: appTheme,
-              title: 'Stroy Generator',
+              title: 'Ehkeely',
               navigatorKey: Go.navigatorKey,
               onGenerateRoute: routeGenerator.getRoute,
               initialRoute: NamedRoutes.splash.routeName,

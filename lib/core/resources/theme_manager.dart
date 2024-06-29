@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/resources/custom_text_styles.dart';
+import 'package:ahkeely/core/resources/custom_text_styles.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'color_manager.dart';
@@ -17,12 +17,13 @@ ThemeData get appTheme => ThemeData(
         backgroundColor: ColorManager.black,
         iconTheme: const IconThemeData(color: ColorManager.white),
       ),
-      popupMenuTheme:  PopupMenuThemeData(
-        position: PopupMenuPosition.under,
-        elevation: 2,
-        color: ColorManager.whiteColor,
-      surfaceTintColor:ColorManager.whiteColor,
-      shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.r))),
+      popupMenuTheme: PopupMenuThemeData(
+          position: PopupMenuPosition.under,
+          elevation: 2,
+          color: ColorManager.whiteColor,
+          surfaceTintColor: ColorManager.whiteColor,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.r))),
       // App bar background color),
       textSelectionTheme:
           const TextSelectionThemeData(cursorColor: ColorManager.primary),
@@ -78,8 +79,8 @@ ThemeData get appTheme => ThemeData(
       ),
       bottomSheetTheme: BottomSheetThemeData(
         backgroundColor: ColorManager.white,
-        shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(36.r)),
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(36.r)),
         elevation: 0,
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/resources/color_manager.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/resources/custom_text_styles.dart';
+import 'package:ahkeely/core/resources/color_manager.dart';
+import 'package:ahkeely/core/resources/custom_text_styles.dart';
 
 class OnBoardingButton extends StatelessWidget {
   const OnBoardingButton({Key? key, required this.onPressed}) : super(key: key);

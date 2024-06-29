@@ -1,5 +1,5 @@
+import 'package:ahkeely/app/app.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/app/app.dart';
 
 const apiKey =
     'AIzaSyABZwM4R62aSloxkIBvPkzeBSMgsa55WKQ'; // Replace with your actual API key

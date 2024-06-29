@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/features/home/home_screen.dart';
-import 'package:flutter_chatgpt_tutorial_yt/features/onBoarding/onboarding_screen.dart';
-import 'package:flutter_chatgpt_tutorial_yt/features/splash/splash_screen.dart';
+import 'package:ahkeely/features/home/home_screen.dart';
+import 'package:ahkeely/features/onBoarding/onboarding_screen.dart';
+import 'package:ahkeely/features/splash/splash_screen.dart';
 
 import 'named_routes.dart';
 import 'page_router/imports_page_router_builder.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/navigator/Constants/imports_constants.dart';
+import 'package:ahkeely/core/navigator/Constants/imports_constants.dart';
 
 import '../../Factory/transition_creator.dart';
 import 'animator/slide_animator.dart';
@@ -19,6 +19,8 @@ class SlideTransitionAnimation implements TransitionCreator {
     return SlideTransition(
       position: SliderAnimator(options).animator(animation),
       child: child,
-    ).buildSecondaryTransition(animation: animation, applySecondaryTransition: options.secondaryTransition);
+    ).buildSecondaryTransition(
+        animation: animation,
+        applySecondaryTransition: options.secondaryTransition);
   }
 }

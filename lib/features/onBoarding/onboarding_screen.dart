@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/navigator/named_routes.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/navigator/navigator.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/resources/assets_manager.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/resources/color_manager.dart';
-import 'package:flutter_chatgpt_tutorial_yt/features/onBoarding/data/board_item.dart';
-import 'package:flutter_chatgpt_tutorial_yt/features/onBoarding/widgets/my_page_indicator.dart';
-import 'package:flutter_chatgpt_tutorial_yt/features/onBoarding/widgets/onboarding_button.dart';
+import 'package:ahkeely/core/navigator/named_routes.dart';
+import 'package:ahkeely/core/navigator/navigator.dart';
+import 'package:ahkeely/core/resources/assets_manager.dart';
+import 'package:ahkeely/core/resources/color_manager.dart';
+import 'package:ahkeely/features/onBoarding/data/board_item.dart';
+import 'package:ahkeely/features/onBoarding/widgets/my_page_indicator.dart';
+import 'package:ahkeely/features/onBoarding/widgets/onboarding_button.dart';
 import 'package:lottie/lottie.dart';
 
 class OnboardingScreen extends StatefulWidget {

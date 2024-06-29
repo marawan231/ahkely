@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flutter_chatgpt_tutorial_yt",
+            "name": "ahkeely",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "flutter_chatgpt_tutorial_yt (profile mode)",
+            "name": "ahkeely (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "flutter_chatgpt_tutorial_yt (release mode)",
+            "name": "ahkeely (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

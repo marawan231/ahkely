@@ -1,8 +1,8 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/resources/custom_text_styles.dart';
-import 'package:flutter_chatgpt_tutorial_yt/main.dart';
+import 'package:ahkeely/core/resources/custom_text_styles.dart';
+import 'package:ahkeely/main.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';

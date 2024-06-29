@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/resources/color_manager.dart';
-import 'package:flutter_chatgpt_tutorial_yt/features/onBoarding/onboarding_screen.dart';
+import 'package:ahkeely/core/resources/color_manager.dart';
+import 'package:ahkeely/features/onBoarding/onboarding_screen.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class MyPageIndicator extends StatelessWidget {

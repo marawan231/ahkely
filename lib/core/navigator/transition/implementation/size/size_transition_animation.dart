@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/navigator/Constants/imports_constants.dart';
+import 'package:ahkeely/core/navigator/Constants/imports_constants.dart';
 
 import '../../Factory/transition_creator.dart';
 import 'Animator/size_animator.dart';
@@ -12,7 +12,8 @@ class SizeTransitionAnimation implements TransitionCreator {
   const SizeTransitionAnimation({required this.options});
 
   @override
-  Widget animate(Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
+  Widget animate(Animation<double> animation,
+      Animation<double> secondaryAnimation, Widget child) {
     return Align(
       alignment: options.alignment,
       child: SizeTransition(
@@ -20,7 +21,9 @@ class SizeTransitionAnimation implements TransitionCreator {
         axis: options.axis,
         axisAlignment: options.axisAlignment,
         child: child,
-      ).buildSecondaryTransition(animation: animation, applySecondaryTransition: options.secondaryTransition),
+      ).buildSecondaryTransition(
+          animation: animation,
+          applySecondaryTransition: options.secondaryTransition),
     );
   }
 }

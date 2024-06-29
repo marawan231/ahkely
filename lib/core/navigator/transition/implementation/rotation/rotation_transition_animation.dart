@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_tutorial_yt/core/navigator/Constants/imports_constants.dart';
+import 'package:ahkeely/core/navigator/Constants/imports_constants.dart';
 
 import '../../Factory/transition_creator.dart';
 import 'Animator/rotation_animator.dart';
@@ -25,6 +25,8 @@ class RotationTransitionAnimation implements TransitionCreator {
       alignment: options.alignment,
       filterQuality: options.filterQuality,
       child: child,
-    ).buildSecondaryTransition(animation: animation, applySecondaryTransition: options.secondaryTransition);
+    ).buildSecondaryTransition(
+        animation: animation,
+        applySecondaryTransition: options.secondaryTransition);
   }
 }
