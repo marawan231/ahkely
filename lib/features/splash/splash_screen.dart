@@ -25,7 +25,7 @@ class _SplashViewState extends State<SplashView> {
   }
 
   void _goNext() async {
-    Go.toNamed(NamedRoutes.onBoarding);
+    Go.toNamed(NamedRoutes.home);
   }
 
   @override
@@ -40,7 +40,10 @@ class _SplashViewState extends State<SplashView> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: ColorManager.primary,
-      body: Center(child: Image.asset(AssetsManager.logo, fit: BoxFit.contain)),
+      body: SizedBox(
+          width: double.infinity,
+          height: double.infinity,
+          child: Image.asset(AssetsManager.logo, fit: BoxFit.cover)),
     );
   }
 }

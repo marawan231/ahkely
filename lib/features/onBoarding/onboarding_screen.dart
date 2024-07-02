@@ -69,7 +69,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   }
 
   void _goToLoginScreen() {
-    Go.toNamed(NamedRoutes.home);
+    Go.toNamed(NamedRoutes.register);
   }
 
   Widget _buildTitle() {

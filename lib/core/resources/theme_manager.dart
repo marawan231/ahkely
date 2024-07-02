@@ -51,19 +51,19 @@ ThemeData get appTheme => ThemeData(
           // contentPadding: EdgeInsets.symmetric(
           //     vertical: 20.sp, horizontal: AppPadding.pH16),
           enabledBorder: OutlineInputBorder(
-              borderSide: BorderSide.none,
+              borderSide: const BorderSide(color: ColorManager.primary),
               borderRadius: BorderRadius.circular(16.r)),
           focusedBorder: OutlineInputBorder(
               borderSide: const BorderSide(color: ColorManager.primary),
               borderRadius: BorderRadius.circular(16.r)),
           disabledBorder: OutlineInputBorder(
-              borderSide: BorderSide.none,
+              borderSide: BorderSide(color: ColorManager.primary, width: 1),
               borderRadius: BorderRadius.circular(16.r)),
           errorBorder: OutlineInputBorder(
               borderSide: const BorderSide(color: ColorManager.error),
               borderRadius: BorderRadius.circular(16.r)),
           focusedErrorBorder: OutlineInputBorder(
-              borderSide: BorderSide.none,
+              borderSide: BorderSide(color: ColorManager.error, width: 1),
               borderRadius: BorderRadius.circular(16.r))),
 
       bottomNavigationBarTheme: BottomNavigationBarThemeData(

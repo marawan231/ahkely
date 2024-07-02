@@ -6,7 +6,7 @@ const String lottiePath = "assets/lottie";
 
 class AssetsManager {
   //home
-  static const String logo = "$imagePath/logo.png";
+  static const String logo = "$imagePath/logo.jpeg";
   //1
   static const String onBoarding1 = "$lottiePath/1.json";
   //2

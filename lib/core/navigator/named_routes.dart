@@ -5,6 +5,10 @@ enum NamedRoutes {
   onBoarding('/onBoarding'),
   //home
   home('/home'),
+  //login
+  login('/login'),
+  //register
+  register('/register'),
   //successBankTransferFundView
   // successBankTransferFundView('/successBankTransferFundView'),
 
