@@ -25,7 +25,7 @@ class _SplashViewState extends State<SplashView> {
   }
 
   void _goNext() async {
-    Go.toNamed(NamedRoutes.home);
+    Go.toNamed(NamedRoutes.onBoarding);
   }
 
   @override
